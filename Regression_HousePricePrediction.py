@@ -90,7 +90,7 @@ Hist_spb,Hist_pps = load_matplotlib_figure()
 tab1, tab2, tab3 = st.tabs([ "WebApp","Project Overview", "Methodology"])
 
 with tab1:
-	" # Web App "
+	"## Forecasting - Banglore House Price Prediction"
 	" This web app predicts if your home loan will be sanctioned based on the personal information. It will show the prediction done by multiple models"
 	
 	"---"
@@ -163,7 +163,6 @@ with tab1:
 
 
 with tab2:
-	"## Forecasting - Banglore House Price Prediction"
 
 	"##### Forecasting - Banglore House Price Prediction"
 	'Building a regression model to predict house prices'
