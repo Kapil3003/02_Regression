@@ -197,7 +197,7 @@ with tab2:
 
 with tab3:
 
-	"# Problem Statement"
+	#"# Problem Statement"
 
 	"##### Forecasting - Banglore House Price Prediction"
 	'Building a regression model to predict house prices'	
