@@ -163,7 +163,7 @@ with tab1:
 
 
 with tab2:
-	"## Project Overview"
+	"## Forecasting - Banglore House Price Prediction"
 
 	"##### Forecasting - Banglore House Price Prediction"
 	'Building a regression model to predict house prices'
@@ -203,7 +203,7 @@ with tab3:
 	"##### Forecasting - Banglore House Price Prediction"
 	'Building a regression model to predict house prices'	
 
-	'In this project we will try to predict banglore house prices based on the features provided using various machine learning regression techniques. We compare different machine learning models for their accuracy and performance. In the end we will create a deployable streamlit app and delpoy it on the streamlit server.'
+	'In this project we will try to predict banglore house prices based on the features provided using various machine learning regression techniques. We compare different machine learning models for their accuracy and performance. In the end we will create a deployable streamlit app and delpoy it on the streamlit server.'	
 
 	
 
