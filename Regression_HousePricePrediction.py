@@ -177,17 +177,20 @@ with tab2:
 	"---"
 	'## Sources'
 	"[Kaggle DataSet](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)"
-	"[Github](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)"
+	"[Github](https://github.com/Kapil3003/02_Regression)"
 
 	# "---"
 	# "- Checkout the app in WebApp tab"
 	# "- Checkout the step by step analysis in Methodology tab"
 	"---"
 
-	" ## Other Projects on this series"
-	" 1. [Clustering - Custormer Segmentation](/guides/content/editing-an-existing-page)"
-	" 3. [Classification - Loan Approval Prediction using binary classification](/guides/content/editing-an-existing-page)"
-	" 4. [Classification :- Breast Cancer prediction with Hyper parameter Optimisation](/guides/content/editing-an-existing-page)"
+	" ## Projects"
+	" 1. [Clustering - Customer Segmentation](https://kapil3003-01-clustering-clustering-streamlit-app-43fp3b.streamlitapp.com/)"
+	" 2. [Forecasting - Banglore House Price Prediction](https://kapil3003-02-regression-regression-housepriceprediction-ifckzh.streamlitapp.com/)"
+	" 3. [Binary Classification - Loan Approval Prediction ](https://kapil3003-03-classification-classification-streamlit-app-el6w2c.streamlitapp.com/)"
+	" 4. [Hyper parameter Optimisation - Breast Cancer Prediction](https://github.com/Kapil3003/04_Hyperparameter_Optimization)"
+
+
 
 with tab3:
 
