@@ -165,6 +165,10 @@ with tab1:
 with tab2:
 	"## Project Overview"
 
+	"##### Forecasting - Banglore House Price Prediction"
+	'Building a regression model to predict house prices'
+
+
 	"This is the second project in the ML for Data science series. The aim of this project is to"
 
 	'- Study and practice in depth all the tools required for EDA and feature engineering'
@@ -196,8 +200,10 @@ with tab3:
 
 	"# Problem Statement"
 
+	"##### Forecasting - Banglore House Price Prediction"
+	'Building a regression model to predict house prices'	
+
 	'In this project we will try to predict banglore house prices based on the features provided using various machine learning regression techniques. We compare different machine learning models for their accuracy and performance. In the end we will create a deployable streamlit app and delpoy it on the streamlit server.'
-	'The data in this project is quite big with almost 13k entries. We will use this to mak indepth analysis and better predictions.'
 
 	
 
