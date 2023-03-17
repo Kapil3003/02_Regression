@@ -91,7 +91,7 @@ tab1, tab2, tab3 = st.tabs([ "WebApp","Project Overview", "Methodology"])
 
 with tab1:
 	"## Forecasting - Banglore House Price Prediction"
-	" This web app predicts if your home loan will be sanctioned based on the personal information. It will show the prediction done by multiple models"
+	" This web app predicts the house price based on input parameters such as Location, Total area, No of bedrooms and bathrooms. It will show the prediction done by multiple models"
 	
 	"---"
 	col_1, col_2, col_3= st.columns(3)
