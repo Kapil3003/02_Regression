@@ -1,4 +1,4 @@
-## pipreqs (to create requirement file needed for streamshare)
+## pipreqs . (to create requirement file needed for streamshare)
 ## cd to folder
 ## streamlit run Regression_HousePricePrediction.py
 ########################## Initialization #####################
@@ -13,6 +13,7 @@ import seaborn as sns
 import plotly as py
 import plotly.graph_objs as go
 import pickle
+import sklearn
 from sklearn.cluster import KMeans
 
 
