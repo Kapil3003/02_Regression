@@ -16,8 +16,7 @@ import pickle
 import sklearn
 from sklearn.cluster import KMeans
 
-st.write(pickle.format_version)
-st.write(pickle.format_version)
+
 
 import warnings
 import os
@@ -26,6 +25,9 @@ pd.options.mode.chained_assignment = None  # default='warn'
 pd.set_option('max_colwidth', 150)
 st.set_page_config(layout="wide")
 
+
+st.write(pickle.format_version)
+st.write(sklearn.__version__)
 
 @st.cache_data(hash_funcs={dict: lambda _: None})
 def load_data():
