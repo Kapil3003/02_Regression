@@ -17,6 +17,7 @@ import sklearn
 from sklearn.cluster import KMeans
 
 print(pickle.format_version)
+print(pickle.format_version)
 
 import warnings
 import os
