@@ -24,7 +24,7 @@ pd.set_option('max_colwidth', 150)
 st.set_page_config(layout="wide")
 
 
-@st.cache(hash_funcs={dict: lambda _: None})
+@st.cache_data(hash_funcs={dict: lambda _: None})
 def load_data():
 	
 	Data = pd.read_csv ("Bengaluru_House_Data.csv")  
@@ -58,7 +58,7 @@ Data_M = Data_M[~(Data_M.total_sqft/Data_M.bhk<300)]
 Data_M = Data_M[~(Data_M.total_sqft/Data_M.bhk>1500)]
 
 
-@st.cache(hash_funcs={matplotlib.figure.Figure: lambda _: None})
+@st.cache_data(hash_funcs={matplotlib.figure.Figure: lambda _: None})
 def load_matplotlib_figure():
 
 	final_Data0 = pd.read_csv ("Final_data0.csv")  
@@ -98,7 +98,7 @@ with tab1:
 
 	with col_1:
 		#name = st.text_input("What is your name ?")
-		area = st.slider('Total area of the house in sqft ', 0, 5000, 0)
+		area = st.slider('Total area of the house in sqft ', 0, 5000, 500)
 		bed_no = st.slider('No of Bedrooms', 1,10, 1)
 
 	with col_2:
