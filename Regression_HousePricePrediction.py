@@ -16,6 +16,7 @@ import pickle
 import sklearn
 from sklearn.cluster import KMeans
 
+print(pickle.format_version)
 
 import warnings
 import os
@@ -145,20 +146,7 @@ with tab1:
 		predoction = 'Predicted price of house is ' + str(Predicted_Price[0]) + " Lakhs"
 		st.success(predoction)
 	
-	# col_10, col_20,col_30 = st.columns(3)
 
-	# with col_10:
-	# 	'##### XGBoost'
-	# 	st.success('Loan will get approve !!!')
-		
-
-	# with col_20:
-	# 	'##### RandomForest'
-	# 	st.success('Loan will get approve !!!')
-		
-	# with col_30:
-	# 	'##### Logistic Regression'
-	# 	st.success('Loan will get approve !!!')
 
 
 
@@ -293,21 +281,3 @@ with tab3:
 	"Add graphs and code ---"
 
 
-
-# 	code = '''from sklearn.model_selection import ShuffleSplit
-# cv = ShuffleSplit(n_splits=5, test_size=0.2, random_state=0)
-# from sklearn.model_selection import cross_val_score
-
-# Accuracy_XGB = (cross_val_score(XGBClassifier(), X, y, cv=cv)).mean()
-# Accuracy_RF = (cross_val_score(RandomForestClassifier(), X, y, cv=cv)).mean()
-# Accuracy_DT = (cross_val_score(DecisionTreeClassifier(), X, y, cv=cv)).mean()
-# Accuracy_KNN = (cross_val_score(KNeighborsClassifier(), X, y, cv=cv)).mean()
-# Accuracy_LR = (cross_val_score(LogisticRegression(), X, y, cv=cv)).mean()
-# '''
-
-	
-# 	st.code(code, language='python')
-# 	'We were able to acheive more than **75%** accuracy for XGB,RF and LR after k-fold'
-# 	'### Performances matrices'
-# 	'1. Confusion Matrix'
-# 	'2. Accuracy score - Precision, Recall, F-1 and support'
